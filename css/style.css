@@ -1,1 +1,66 @@
+body {
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    height: 120vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    background-color: #eeeeee;
+    box-shadow: #000000cb 1px 1px 20px ;
+    border-radius: 8px;
+}
+
+.form h2 {
+    text-align: center;
+    color: #585858;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0;
+}
+
+.form input {
+    width: 100%;
+    height: 1.7rem;
+    border-radius: 10px;
+    border: #000000 solid 2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.form select {
+    width: 50%;
+    height: 2rem;
+    border-radius: 10px;
+    border: #000 solid 2px;
+}
+
+.form .Register {
+    background-color: #008cff;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: scale 0.2s ease-in-out, background 0.3s ease-in-out;
+}
+
+.form .Register:hover {
+    background-color: #4fb0ff;
+    cursor: pointer;
+    scale: 1.1;
+}
 
